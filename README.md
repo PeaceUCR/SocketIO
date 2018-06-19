@@ -1,5 +1,12 @@
 # SocketIO Practice
 
+Live Site:(use https, http will get ws connect error) 
+
+https://pinghe-app-2018.herokuapp.com/
+
+https://www.pinghe1991.com/
+
+
 # how to use: npm install, npm start(make sure mongodb is running)
 
 Google Oauth 400 redirect_uri_mismatch Error
