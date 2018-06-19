@@ -1,6 +1,6 @@
-#SocketIO Practice
+# SocketIO Practice
 
-#how to use: npm install, npm start(make sure mongodb is running)
+# how to use: npm install, npm start(make sure mongodb is running)
 
 Google Oauth 400 redirect_uri_mismatch Error
 
@@ -17,7 +17,7 @@ https://stackoverflow.com/questions/41448014/google-script-oauth2-error-redirect
 Reference Course from https://www.udemy.com/node-with-socketio-build-a-full-web-chat-app-from-scratch/learn/v4/overview
 
 
-#Document for this project
+# Document for this project
 
 **app.js**
 
@@ -131,7 +131,7 @@ router.post('/user'
 router.post('/message'
 
 
-#/sockets
+# /sockets
 **chat.js** configure the socket for chat
 
 let nsp = io.of('/chat');
