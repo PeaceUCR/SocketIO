@@ -3,7 +3,7 @@
  */
 module.exports = {
     google: {
-        clientID: '229932289078-7cc625ibkv6qo3ao98vo0onb3lh7hni4.apps.googleusercontent.com',
+        clientID: '210221489159-vu3d37il2lqa2tsgmfdbhpnt6qm62gel.apps.googleusercontent.com',
         clientSecret: 'EBMK7I1zQiKA93y_bXYjz9vJ'
     },
     wechat: {

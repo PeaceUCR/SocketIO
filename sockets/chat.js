@@ -74,6 +74,7 @@ module.exports = function (io) {
         //no need connect join included
         //first time join room get all current user
         socket.on('fetchRoomUserList', function (message) {
+            //console.log('fetch');
             if(message.sender){
                 console.log('fetch room:'+message.room);
                 let currentRoomUser = [];
