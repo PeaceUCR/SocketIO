@@ -9,7 +9,9 @@ https://www.pinghe1991.com/
 
 # how to use: npm install, npm start(make sure mongodb is running)
 
-Google Oauth 400 redirect_uri_mismatch Error
+**Socket IO with React is hard, where to put socket with redux?, sokcet may disconnect sometime, need reconnect for notification socket**
+
+**Google Oauth 400 redirect_uri_mismatch Error**
 
 please make sure the update the **Client ID** **Client Secret** 
 
