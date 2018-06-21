@@ -19,7 +19,7 @@ const userSchema = mongoose.Schema({
         userId: {type: mongoose.Schema.Types.ObjectId, ref: 'User'}
     }],
     request: [{
-        userId: {type: mongoose.Schema.Types.ObjectId, ref: 'User'}
+        type: mongoose.Schema.Types.Mixed
     }],
     friendsList: [{
         userId: {type: mongoose.Schema.Types.ObjectId, ref: 'User'}

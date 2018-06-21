@@ -113,7 +113,7 @@ module.exports = function (io) {
         });
 
         socket.on('disconnecting', function(){
-            console.log('disconneting');
+            console.log('disconneting char');
             console.log(nsp.adapter.sids[socket.id]);
             //if no namespace
             //let room in io.sockets.adapter.sids[socket.id]
@@ -121,7 +121,7 @@ module.exports = function (io) {
                 //leaverooms.push(room);
                 nsp.to(room).emit('removeRoomUser', {user: userList[socket.id]});
             }
-
+            /*
             if(userList[socket.id]){
                 User.update({'_id':userList[socket.id].id},{isOnline: false},function(err, numAffected) {
                     if(err){
@@ -131,7 +131,7 @@ module.exports = function (io) {
                     console.log('num affect:'+JSON.stringify(numAffected));
                 });
             }
-
+            */
         });
         //can't send data when disconnected
         //in disconnect event, the socket already exit the room,

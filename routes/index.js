@@ -46,7 +46,7 @@ router.get('/currentuser', function(req, res, next) {
             console.log('num affect:'+JSON.stringify(numAffected));
         });
 
-        res.json({ user: {id: req.user.id,username:req.user.username, userImage: req.user.userImage} });
+        res.json({ user: {id: req.user.id,username:req.user.username, userImage: req.user.userImage,request: req.user.request} });
     }else{
         res.json({});
     }
@@ -76,7 +76,7 @@ router.post('/login',
     function (req, res, next) {
         // handle success
         console.log(req.xhr);
-        if (req.xhr) { return res.json({ user: {id: req.user.id,username:req.user.username, userImage: req.user.userImage}}); }
+        if (req.xhr) { return res.json({ user: {id: req.user.id,username:req.user.username, userImage: req.user.userImage, request: req.user.request}}); }
         return res.redirect('/');
     },
     function (err, req, res, next) {
